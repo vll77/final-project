@@ -1,0 +1,47 @@
+/* INDEX HTML*/
+ /* importing google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     background: #1b3e62;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ ::selection {
+     color: #fff;
+     background: #007bff;
+ }
+
+ .start_btn {
+     position: relative;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .start_btn button {
+     font-size: 25px;
+     font-weight: 500;
+     color: #007bff;
+     padding: 15px 30px;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     background: #fff;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+
+ .start_btn button:hover {
+     background-color: #cce5ff;
+     border-color: #007bff;
+ }

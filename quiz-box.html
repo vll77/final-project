@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-3.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-box">
+        <header>
+            <div class="quiz-title"> Quiz App</div>
+            <div class="timer">
+                <div class="time-left-label">Time Left</div>
+                <div id="timer" class="timer-seconds"><!--Time left will appear here-->></div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+        <section>
+            <div class="question-text">
+                <!-- Question will appear here -->
+            </div>
+            <div class="options-list">
+                <!-- Options will appear here -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="question-count">
+                <!-- Question Count will appear here -->
+            </div>
+            <button class="next-button" onclick="moveToNextQuestion()">Next Question</button>
+            <button id="resultsButton" class="results-button" onclick="moveToNextQuestion(); window.location.href='result-box.html'" style="display: none;" disabled>Show Results</button>
+        </footer>
+        <script src="quiz-box.js"></script>
+</body>
+</html>

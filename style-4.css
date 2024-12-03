@@ -1,0 +1,161 @@
+/* RESULT BOX HTML */
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #084826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-box {
+    width: 540px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.completion-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.score-result {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.result-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.replay-button, .quit-button {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.replay-button:hover, .quit-button:hover {
+    background: #0263ca;
+}
+
+.quit-button {
+    background: #dc3545;
+}
+
+.quit-button:hover {
+    background: #c82333;
+}
+
+@media screen and (max-width: 680px) {
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+background: #084826;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.result-box {
+width: 90%; /* Adjust the width for smaller screen sizes */
+max-width: 500px; /* Limit the max width for better fit */
+max-height: 500px; /* Set a max height for the result box */
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 15px; /* Reduced padding for smaller height */
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 12px; /* Reduced gap */
+overflow-y: auto; /* Add scrolling if content overflows */
+}
+
+.completion-text {
+font-size: 18px; /* Smaller text size */
+font-weight: 600;
+color: #28a745;
+text-align: center;
+margin-bottom: 10px; /* Reduced margin */
+}
+
+.score-result {
+font-size: 16px; /* Smaller text size */
+font-weight: 500;
+color: #333;
+text-align: center;
+margin-bottom: 15px; /* Adjusted margin */
+}
+
+.result-buttons {
+display: flex;
+flex-direction: column;
+gap: 10px; /* Reduced gap */
+width: 100%;
+}
+
+.replay-button, .quit-button {
+padding: 8px 15px; /* Reduced padding */
+font-size: 14px; /* Smaller text size */
+font-weight: 600;
+background: #007bff;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+transition: background 0.3s ease;
+width: 100%;
+}
+
+.replay-button:hover, .quit-button:hover {
+background: #0263ca;
+}
+
+.quit-button {
+background: #dc3545;
+}
+
+.quit-button:hover {
+background: #c82333;
+}
+}

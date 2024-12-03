@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "What is the capital of France?",
+        "questionType": "multiple_choice",
+        "options": ["Berlin", "Paris", "Rome", "Madrid"],
+        "correctAnswer": 1,
+        "feedback": "Paris is the capital of France."
+    },
+    {
+        "questionText": "Select the prime numbers.",
+        "questionType": "select_all",
+        "options": ["2", "4", "5", "6"],
+        "correctAnswer": [0, 2],
+        "feedback": "2 and 5 are prime numbers."
+    },
+    {
+        "questionText": "The sun rises in the west.",
+        "questionType": "true_false",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "feedback": "The sun rises in the east."
+    },
+    {
+        "questionText": "Which planet is known as the Red Planet?",
+        "questionType": "multiple_choice",
+        "options": ["Earth", "Venus", "Mars", "Jupiter"],
+        "correctAnswer": 2,
+        "feedback": "Mars is known as the Red Planet due to its reddish appearance."
+    },
+    {
+        "questionText": "Select the continents.",
+        "questionType": "select_all",
+        "options": ["Europe", "Asia", "Africa", "Australia"],
+        "correctAnswer": [0, 1, 2, 3],
+        "feedback": "All four are continents."
+    },
+    {
+        "questionText": "The Great Wall of China is visible from space.",
+        "questionType": "true_false",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "feedback": "The Great Wall is not visible from space with the naked eye."
+    },
+    {
+        "questionText": "What is the largest ocean on Earth?",
+        "questionType": "multiple_choice",
+        "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+        "correctAnswer": 2,
+        "feedback": "The Pacific Ocean is the largest ocean on Earth."
+    },
+    {
+        "questionText": "Select the primary colors.",
+        "questionType": "select_all",
+        "options": ["Red", "Green", "Blue", "Yellow"],
+        "correctAnswer": [0, 2, 3],
+        "feedback": "Red, blue, and yellow are the primary colors."
+    },
+    {
+        "questionText": "Water freezes at 0 degrees Celsius.",
+        "questionType": "true_false",
+        "options": ["True", "False"],
+        "correctAnswer": 0,
+        "feedback": "Water freezes at 0 degrees Celsius."
+    },
+    {
+        "questionText": "Who wrote 'Romeo and Juliet'?",
+        "questionType": "multiple_choice",
+        "options": ["Charles Dickens", "William Shakespeare", "J.K. Rowling", "Mark Twain"],
+        "correctAnswer": 1,
+        "feedback": "William Shakespeare wrote 'Romeo and Juliet.'"
+    },
+    {
+        "questionText": "Select the animals that are mammals.",
+        "questionType": "select_all",
+        "options": ["Lion", "Frog", "Whale", "Eagle"],
+        "correctAnswer": [0, 2],
+        "feedback": "Lions and whales are mammals."
+    },
+    {
+        "questionText": "Lightning never strikes the same place twice.",
+        "questionType": "true_false",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "feedback": "Lightning can strike the same place more than once."
+    },
+    {
+        "questionText": "Which gas do plants absorb from the atmosphere?",
+        "questionType": "multiple_choice",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correctAnswer": 1,
+        "feedback": "Plants absorb carbon dioxide from the atmosphere for photosynthesis."
+    },
+    {
+        "questionText": "Select the programming languages.",
+        "questionType": "select_all",
+        "options": ["Python", "HTML", "Java", "CSS"],
+        "correctAnswer": [0, 2],
+        "feedback": "Python and Java are programming languages, whereas HTML and CSS are markup and style languages."
+    },
+    {
+        "questionText": "Mount Everest is the tallest mountain in the world.",
+        "questionType": "true_false",
+        "options": ["True", "False"],
+        "correctAnswer": 0,
+        "feedback": "Mount Everest is indeed the tallest mountain above sea level."
+    }
+]

@@ -1,0 +1,93 @@
+ /* QUIZ RULES HTML */
+ /* importing google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     background: #182b40;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ ::selection {
+     color: #fff;
+     background: #007bff;
+ }
+
+ .info-box {
+     width: 540px;
+     background: #fff;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     padding: 20px;
+ }
+
+ .info-title {
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 24px;
+     font-weight: 600;
+     border-bottom: 1px solid lightgrey;
+     padding: 0 20px;
+ }
+
+ .info-list {
+     padding: 15px 0;
+ }
+
+ .rule {
+     font-size: 17px;
+     margin-bottom: 10px;
+ }
+
+ .rule span {
+     font-weight: 600;
+     color: #007bff;
+ }
+
+ .button-group {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+ }
+
+ .button-group button {
+     padding: 10px 20px;
+     font-size: 16px;
+     font-weight: 500;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+
+ .exit-button {
+     background: #f8d7da;
+     border: 1px solid #f5c6cb;
+     color: #721c24;
+ }
+
+ .exit-button:hover {
+     background: #f5c6cb;
+ }
+
+ .continue-button {
+     background: #007bff;
+     border: 1px solid #007bff;
+     color: #fff;
+ }
+
+ .continue-button:hover {
+     background: #0263ca;
+ }

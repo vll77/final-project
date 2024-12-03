@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-2.css">
+    <title>Quiz Rules</title>
+</head>
+<body>
+    <div class="info-box">
+        <div class="info-title"><span>Quiz Rules</span></div>
+        <div class="info-list">
+            <div class="rule time-limit">1. The quiz will last a total of <span id="quiz-duration"><!--Quiz Time limit from JS Here--></span>.</div>
+            <div class="rule no-undo">2. Once you select an answer, it can't be changed.</div>
+            <div class="rule no-exit">3. You cannot exit the quiz while it's in progress.</div>
+        </div>
+        <div class="button-group">
+            <button class="exit-button" onclick="window.location.href='index.html';">Exit Quiz</button>
+            <button class="continue-button" onclick="window.location.href='quiz-box.html';">Continue</button>
+        </div>
+    </div>
+
+    <!-- Include quiz-box.js to access the JavaScript functions -->
+    <script src="quiz-box.js"></script>
+
+    <!-- Call displayQuizTime to update the time on the page once it's loaded -->
+    <script>
+        window.onload = function() {
+            displayQuizTime(); // This will populate the quiz duration on the page
+        };
+    </script>
+</body>
+</html>
+
